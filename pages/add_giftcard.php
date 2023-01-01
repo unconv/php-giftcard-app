@@ -1,3 +1,4 @@
+<h2>Add gift card</h2>
 <form action="/index.php?page=create_giftcard" method="post">
     <label for="amount">Amount:</label><br>
     <input type="text" name="amount"><br>

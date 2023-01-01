@@ -2,6 +2,7 @@
 $result = $db->query("SELECT * FROM gift_cards");
 ?>
 
+<h2>Gift cards</h2>
 <table>
     <tr>
         <th>Card Number</th>
