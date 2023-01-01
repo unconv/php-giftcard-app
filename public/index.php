@@ -17,6 +17,11 @@ require __DIR__.'/../db.php';
         </header>
         <main>
             <?php
+            // set default page
+            if( ! isset( $_GET['page'] ) ) {
+                $_GET['page'] = 'giftcards';
+            }
+
             // sanitize page parameter
             $page = basename($_GET['page']);
 
