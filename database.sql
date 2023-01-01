@@ -1,0 +1,7 @@
+CREATE TABLE gift_cards (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  card_number VARCHAR(255) NOT NULL,
+  balance DECIMAL(10,2) NOT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  UNIQUE(card_number)
+);
